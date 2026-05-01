@@ -10,17 +10,18 @@
         <h1>¡La Coco Gamer!</h1>
         <img src="coco.jpeg" alt="COCO" width="300">
         <button onclick="celebrar()">¡Haz clic aquí!</button>
+        <p id="mensaje-secreto" style="display: none; color: #2e7d32; font-weight: bold; margin-top: 10px;">¡Coco está feliz con su PS5! 🐹🎮</p>
         <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Ir a Google</a>
         
     </div>
     <script>
     function celebrar() {
-        // Esto lanza una ventana de alerta
-        alert("¡Coco está feliz con su PS5! 🐹🎮");
-        
-        // Esto cambia el color del título por un momento
-        document.querySelector('h1').style.color = 'orange';
-    }
+    // Esto hace que el mensaje escondido aparezca
+    document.getElementById('mensaje-secreto').style.display = 'block';
+
+    // Esto cambia el color del título como ya hacías
+    document.querySelector('h1').style.color = 'orange';
+}
 </script>
 
 </body>
