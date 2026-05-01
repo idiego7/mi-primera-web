@@ -1,0 +1,56 @@
+h1 {
+    color: blue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+body {
+    background-color: #f4f4f4; /* Un gris muy clarito de fondo */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Esto centrará TODO en la pantalla */
+    justify-content: center;
+    height: 100vh; /* Para que use toda la altura de la pantalla */
+    margin: 0;
+}
+
+button {
+    background-color: #28a745; /* Verde */
+    color: white;
+    padding: 10px 25px; /* Más ancho */
+    border: none;
+    border-radius: 8px; /* Bordes más redondeados */
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s; /* Esto hace que el cambio de color sea suave */
+    margin-top: 20px; /* Separa el botón de la foto */
+}
+
+button:hover {
+    background-color: #1e7e34; /* Un verde más oscuro */
+    transform: scale(1.1); /* ¡El botón crece un poquito! */
+}
+a {
+    color: #007bff;
+    text-decoration: none; /* Quita el subrayado */
+    font-weight: bold;
+    margin-top: 15px;
+    font-family: sans-serif;
+    transition: 0.3s;
+}
+
+a:hover {
+    text-decoration: underline; /* Solo se subraya al pasar el mouse */
+    color: #0056b3;
+}
+.tarjeta {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1); /* Sombra suave */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
